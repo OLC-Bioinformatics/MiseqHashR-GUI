@@ -108,7 +108,7 @@ class MainWindow(QMainWindow):
         ## END - WINDOW ATTRIBUTES
         ############################## ---/--/--- ##############################
 
-        appIcon = QIcon("MiSeqHashrIcon.png")
+        appIcon = QIcon("MiSeqHashRIcon.png")
         self.setWindowIcon(appIcon)
 
 
