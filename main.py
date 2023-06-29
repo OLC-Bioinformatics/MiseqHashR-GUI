@@ -175,16 +175,10 @@ class MainWindow(QMainWindow):
                 # Resets error message
                 self.analyzeLabelError.setText("")
 
-                # Creates the layout with the loading bar
-                #layout = QVBoxLayout()   
 
                 # Adding the loading bar widget to our window
-                #self.progressBar = QProgressBar()
                 self.progressBar.setMinimum(0)
                 self.progressBar.setMaximum(100)
-                #layout.addWidget(self.progressBar)
-
-                #self.progressBar.show()
 
                 # Uses the folder name as an argument to run miSeqHashR and get the results.
                 self.test_out = os.path.join(folderName, "test_out")
@@ -193,7 +187,7 @@ class MainWindow(QMainWindow):
                 # Runs the loading bar as miSeqHashR is running
                 while p.poll() is None:
                     # Runs the progress bar based on the size of the file
-                    #for i in range(100):
+                    
                     numberOfHashes=len(glob.glob(os.path.join(folderName, 'hashes', '*.txt')))
                     progress=int((numberOfHashes/numberOfFastQ)*100)
                     self.progressBar.setValue(progress)
