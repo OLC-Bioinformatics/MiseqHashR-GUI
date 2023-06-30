@@ -8,7 +8,7 @@ import time
 import glob
 import os
 
-API_ENDPOINT = 'https://olc.cloud.inspection.gc.ca/api/'
+API_ENDPOINT = 'https://10.148.57.4/api/'
 
 # SSL cert isn't quite right on portal. Use this to disable warning.
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'GUI_BASEsXtsRf.ui'
+## Form generated from reading UI file 'GUI_BASEfvnvRS.ui'
 ##
 ## Created by: Qt User Interface Compiler version 5.15.2
 ##
@@ -12,6 +12,7 @@ from PySide2.QtCore import *
 from PySide2.QtGui import *
 from PySide2.QtWidgets import *
 
+import files_rc
 import files_rc
 
 class Ui_MainWindow(object):
@@ -856,6 +857,182 @@ class Ui_MainWindow(object):
         self.verticalLayout_16.setStretch(0, 3)
         self.verticalLayout_16.setStretch(1, 1)
         self.stackedWidget.addWidget(self.page_analysis)
+        self.page_upload = QWidget()
+        self.page_upload.setObjectName(u"page_upload")
+        self.verticalLayout_6 = QVBoxLayout(self.page_upload)
+        self.verticalLayout_6.setObjectName(u"verticalLayout_6")
+        self.frame_div_content_4 = QFrame(self.page_upload)
+        self.frame_div_content_4.setObjectName(u"frame_div_content_4")
+        self.frame_div_content_4.setMinimumSize(QSize(0, 110))
+        self.frame_div_content_4.setMaximumSize(QSize(16777215, 110))
+        self.frame_div_content_4.setStyleSheet(u"background-color: rgb(41, 45, 56);\n"
+"border-radius: 5px;\n"
+"")
+        self.frame_div_content_4.setFrameShape(QFrame.NoFrame)
+        self.frame_div_content_4.setFrameShadow(QFrame.Raised)
+        self.verticalLayout_18 = QVBoxLayout(self.frame_div_content_4)
+        self.verticalLayout_18.setSpacing(0)
+        self.verticalLayout_18.setObjectName(u"verticalLayout_18")
+        self.verticalLayout_18.setContentsMargins(0, 0, 0, 0)
+        self.label_4 = QLabel(self.frame_div_content_4)
+        self.label_4.setObjectName(u"label_4")
+        self.label_4.setFont(font9)
+        self.label_4.setAlignment(Qt.AlignCenter)
+
+        self.verticalLayout_18.addWidget(self.label_4)
+
+        self.label_5 = QLabel(self.frame_div_content_4)
+        self.label_5.setObjectName(u"label_5")
+        self.label_5.setFont(font7)
+        self.label_5.setAlignment(Qt.AlignCenter)
+
+        self.verticalLayout_18.addWidget(self.label_5)
+
+
+        self.verticalLayout_6.addWidget(self.frame_div_content_4)
+
+        self.frame_7 = QFrame(self.page_upload)
+        self.frame_7.setObjectName(u"frame_7")
+        self.frame_7.setFrameShape(QFrame.StyledPanel)
+        self.frame_7.setFrameShadow(QFrame.Raised)
+        self.verticalLayout_7 = QVBoxLayout(self.frame_7)
+        self.verticalLayout_7.setObjectName(u"verticalLayout_7")
+        self.verticalLayout_7.setSizeConstraint(QLayout.SetMinimumSize)
+        self.uploadBtn = QPushButton(self.frame_7)
+        self.uploadBtn.setObjectName(u"uploadBtn")
+        self.uploadBtn.setMinimumSize(QSize(150, 30))
+        self.uploadBtn.setFont(font10)
+        self.uploadBtn.setStyleSheet(u"QPushButton {\n"
+"	border: 2px solid rgb(52, 59, 72);\n"
+"	border-radius: 5px;	\n"
+"	background-color: rgb(52, 59, 72);\n"
+"}\n"
+"QPushButton:hover {\n"
+"	background-color: rgb(57, 65, 80);\n"
+"	border: 2px solid rgb(61, 70, 86);\n"
+"}\n"
+"QPushButton:pressed {	\n"
+"	background-color: rgb(35, 40, 49);\n"
+"	border: 2px solid rgb(43, 50, 61);\n"
+"}")
+        self.uploadBtn.setIcon(icon3)
+
+        self.verticalLayout_7.addWidget(self.uploadBtn)
+
+        self.uploadLabelError = QLabel(self.frame_7)
+        self.uploadLabelError.setObjectName(u"uploadLabelError")
+        palette2 = QPalette()
+        palette2.setBrush(QPalette.Active, QPalette.WindowText, brush15)
+        palette2.setBrush(QPalette.Active, QPalette.Button, brush1)
+        palette2.setBrush(QPalette.Active, QPalette.Text, brush15)
+        palette2.setBrush(QPalette.Active, QPalette.ButtonText, brush15)
+        palette2.setBrush(QPalette.Active, QPalette.Base, brush1)
+        palette2.setBrush(QPalette.Active, QPalette.Window, brush1)
+        brush19 = QBrush(QColor(190, 9, 9, 128))
+        brush19.setStyle(Qt.NoBrush)
+#if QT_VERSION >= QT_VERSION_CHECK(5, 12, 0)
+        palette2.setBrush(QPalette.Active, QPalette.PlaceholderText, brush19)
+#endif
+        palette2.setBrush(QPalette.Inactive, QPalette.WindowText, brush15)
+        palette2.setBrush(QPalette.Inactive, QPalette.Button, brush1)
+        palette2.setBrush(QPalette.Inactive, QPalette.Text, brush15)
+        palette2.setBrush(QPalette.Inactive, QPalette.ButtonText, brush15)
+        palette2.setBrush(QPalette.Inactive, QPalette.Base, brush1)
+        palette2.setBrush(QPalette.Inactive, QPalette.Window, brush1)
+        brush20 = QBrush(QColor(190, 9, 9, 128))
+        brush20.setStyle(Qt.NoBrush)
+#if QT_VERSION >= QT_VERSION_CHECK(5, 12, 0)
+        palette2.setBrush(QPalette.Inactive, QPalette.PlaceholderText, brush20)
+#endif
+        palette2.setBrush(QPalette.Disabled, QPalette.WindowText, brush15)
+        palette2.setBrush(QPalette.Disabled, QPalette.Button, brush1)
+        palette2.setBrush(QPalette.Disabled, QPalette.Text, brush15)
+        palette2.setBrush(QPalette.Disabled, QPalette.ButtonText, brush15)
+        palette2.setBrush(QPalette.Disabled, QPalette.Base, brush1)
+        palette2.setBrush(QPalette.Disabled, QPalette.Window, brush1)
+        brush21 = QBrush(QColor(190, 9, 9, 128))
+        brush21.setStyle(Qt.NoBrush)
+#if QT_VERSION >= QT_VERSION_CHECK(5, 12, 0)
+        palette2.setBrush(QPalette.Disabled, QPalette.PlaceholderText, brush21)
+#endif
+        self.uploadLabelError.setPalette(palette2)
+        self.uploadLabelError.setFont(font10)
+        self.uploadLabelError.setStyleSheet(u"color:rgb(190, 9, 9);")
+        self.uploadLabelError.setAlignment(Qt.AlignCenter)
+
+        self.verticalLayout_7.addWidget(self.uploadLabelError, 0, Qt.AlignTop)
+
+
+        self.verticalLayout_6.addWidget(self.frame_7)
+
+        self.frame_6 = QFrame(self.page_upload)
+        self.frame_6.setObjectName(u"frame_6")
+        self.frame_6.setFrameShape(QFrame.StyledPanel)
+        self.frame_6.setFrameShadow(QFrame.Raised)
+        self.verticalLayout_15 = QVBoxLayout(self.frame_6)
+        self.verticalLayout_15.setObjectName(u"verticalLayout_15")
+        self.frame_div_content_3 = QFrame(self.frame_6)
+        self.frame_div_content_3.setObjectName(u"frame_div_content_3")
+        self.frame_div_content_3.setMinimumSize(QSize(0, 110))
+        self.frame_div_content_3.setMaximumSize(QSize(16777215, 180))
+        self.frame_div_content_3.setStyleSheet(u"background-color: rgb(41, 45, 56);\n"
+"border-radius: 5px;\n"
+"")
+        self.frame_div_content_3.setFrameShape(QFrame.NoFrame)
+        self.frame_div_content_3.setFrameShadow(QFrame.Raised)
+        self.gridLayout_5 = QGridLayout(self.frame_div_content_3)
+        self.gridLayout_5.setObjectName(u"gridLayout_5")
+        self.gridLayout_5.setContentsMargins(-1, 9, -1, -1)
+        self.emailInput = QLineEdit(self.frame_div_content_3)
+        self.emailInput.setObjectName(u"emailInput")
+        self.emailInput.setMinimumSize(QSize(0, 30))
+        self.emailInput.setStyleSheet(u"QLineEdit {\n"
+"	background-color: rgb(27, 29, 35);\n"
+"	border-radius: 5px;\n"
+"	border: 2px solid rgb(27, 29, 35);\n"
+"	padding-left: 10px;\n"
+"}\n"
+"QLineEdit:hover {\n"
+"	border: 2px solid rgb(64, 71, 88);\n"
+"}\n"
+"QLineEdit:focus {\n"
+"	border: 2px solid rgb(91, 101, 124);\n"
+"}")
+
+        self.gridLayout_5.addWidget(self.emailInput, 2, 1, 1, 1)
+
+        self.labelBoxMainArguements = QLabel(self.frame_div_content_3)
+        self.labelBoxMainArguements.setObjectName(u"labelBoxMainArguements")
+        self.labelBoxMainArguements.setFont(font1)
+        self.labelBoxMainArguements.setStyleSheet(u"")
+
+        self.gridLayout_5.addWidget(self.labelBoxMainArguements, 0, 1, 1, 1)
+
+        self.passwordInput = QLineEdit(self.frame_div_content_3)
+        self.passwordInput.setObjectName(u"passwordInput")
+        self.passwordInput.setMinimumSize(QSize(0, 30))
+        self.passwordInput.setStyleSheet(u"QLineEdit {\n"
+"	background-color: rgb(27, 29, 35);\n"
+"	border-radius: 5px;\n"
+"	border: 2px solid rgb(27, 29, 35);\n"
+"	padding-left: 10px;\n"
+"}\n"
+"QLineEdit:hover {\n"
+"	border: 2px solid rgb(64, 71, 88);\n"
+"}\n"
+"QLineEdit:focus {\n"
+"	border: 2px solid rgb(91, 101, 124);\n"
+"}")
+
+        self.gridLayout_5.addWidget(self.passwordInput, 3, 1, 1, 1)
+
+
+        self.verticalLayout_15.addWidget(self.frame_div_content_3)
+
+
+        self.verticalLayout_6.addWidget(self.frame_6)
+
+        self.stackedWidget.addWidget(self.page_upload)
 
         self.verticalLayout_9.addWidget(self.stackedWidget)
 
@@ -932,7 +1109,7 @@ class Ui_MainWindow(object):
 
         self.retranslateUi(MainWindow)
 
-        self.stackedWidget.setCurrentIndex(1)
+        self.stackedWidget.setCurrentIndex(2)
 
 
         QMetaObject.connectSlotsByName(MainWindow)
@@ -964,6 +1141,19 @@ class Ui_MainWindow(object):
         self.label_3.setText(QCoreApplication.translate("MainWindow", u"Please select the path to an Illumina MiSeq run", None))
         self.sequenceBtn.setText(QCoreApplication.translate("MainWindow", u"Open MiSeq Path", None))
         self.analyzeLabelError.setText("")
+        self.label_4.setText(QCoreApplication.translate("MainWindow", u"UPLOAD TO FOODPORT", None))
+        self.label_5.setText(QCoreApplication.translate("MainWindow", u"Select a MiSeq directory to have fastq and hash files automatically uploaded to Foodport", None))
+        self.uploadBtn.setText(QCoreApplication.translate("MainWindow", u"Open MiSeq Path", None))
+        self.uploadLabelError.setText("")
+#if QT_CONFIG(statustip)
+        self.emailInput.setStatusTip("")
+#endif // QT_CONFIG(statustip)
+        self.emailInput.setPlaceholderText(QCoreApplication.translate("MainWindow", u"Foodport Email", None))
+        self.labelBoxMainArguements.setText(QCoreApplication.translate("MainWindow", u"Foodport Information", None))
+#if QT_CONFIG(statustip)
+        self.passwordInput.setStatusTip("")
+#endif // QT_CONFIG(statustip)
+        self.passwordInput.setPlaceholderText(QCoreApplication.translate("MainWindow", u"Foodport Password", None))
         self.label_credits.setText(QCoreApplication.translate("MainWindow", u"Developed for OLC Bioinformaticians", None))
         self.label_version.setText(QCoreApplication.translate("MainWindow", u"v0.0.2", None))
     # retranslateUi
